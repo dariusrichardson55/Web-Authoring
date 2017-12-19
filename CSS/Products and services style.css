@@ -1,0 +1,343 @@
+
+.mySlides {display:none}
+
+
+a:hover {
+	
+	background-color:black;
+	
+}
+
+.mySlides {display:none}
+
+.button:active {
+  background-color: Black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.Deliveryterritory {
+ border-radius: 4px;
+  background-color: Grey;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position:fixed;
+  left: 4.5%;
+  top:  90%
+}
+
+.Deliveryterritory2 {
+  border-radius: 4px;
+  background-color: Grey;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position:fixed;
+  left: 27.5%;
+  top:  90%
+}
+
+
+.Deliveryterritory3 {
+  border-radius: 4px;
+  background-color: Grey;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position:fixed;
+  left: 27.5%;
+  top:  70%
+}
+
+
+
+.Deliveryterritory span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Deliveryterritory span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Deliveryterritory:hover span {
+  padding-right: 25px;
+}
+
+.Deliveryterritory:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.Deliveryterritory2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Deliveryterritory2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Deliveryterritory2:hover span {
+  padding-right: 25px;
+}
+
+.Deliveryterritory2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+	
+#Shirt 
+{
+	position: absolute;
+    left: 95px;
+    top: 360px;
+	
+}
+
+#Trouser 
+{
+	position: absolute;
+    left: 394px;
+    top: 360px;
+	
+}
+
+
+
+#Canvasforshirt
+{
+	position: absolute;
+	left: 50px;
+	top: 290px;
+	Min-width: 320px 
+    Min-width: 480px 
+    Min-width: 768px 
+    Min-width: 992px 
+    Min-width: 1200px
+
+}
+
+#Canvasfortrousers
+{
+	position: absolute;
+	left: 350px;
+	top: 290px;
+	
+}
+
+.brownsquare
+{
+	
+    position: absolute;
+	left: 400px;
+    top: 520px;
+	
+}
+
+.GreenButton2
+{
+	position: absolute;
+	left: 440px;
+	top: 520px;
+	
+}
+
+.BlueButton2
+{
+	position: absolute;
+	left: 480px;
+    top: 520px;
+	
+}
+
+.trousercolourtext
+{
+	position: absolute;
+    left: 440px;
+    top: 480px;
+	
+}
+
+.trousertext
+{
+    position: absolute;
+	left: 435px;
+    top: 290px;
+}
+
+
+.PurpleButton
+{
+	position: absolute;
+	left: 105px;
+	top: 520px;
+	
+}
+
+.GreenButton
+{
+	position: absolute;
+	 left: 145px;
+     top: 520px;
+	
+}
+
+.BlueButton
+{
+	position: absolute;
+	left: 185px;
+    top: 520px;
+	
+}
+
+.colourtext
+{
+    position: absolute;
+	left: 45px;
+    top: 350px;
+}
+
+.shirttext
+{
+    position: absolute;
+	left: 143px;
+    top: 290px;
+}
+
+
+
+
+.shirtcolourtext
+{
+	position: absolute;
+    left: 145px;
+    top: 480px;
+	
+}
+
+.header {
+
+
+text-align: right;
+font-family: Helvetica;
+	
+}
+
+.title {
+
+font-size: 30px;
+text-align: right; 
+
+}
+
+.shirtpricetext
+{
+position: absolute;
+left: 148px;
+bottom: 250px;
+
+}
+
+
+.trouserspricetext
+{
+position: absolute;
+left:   448px;
+bottom: 250px;
+
+}
+
+.button {
+    background-color: Grey;
+    border: none;
+    color: white;
+    text-align: centre;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+	margin: 4px 2px;
+   	width: 17em;
+	line-height: 4em;
+	
+	}
+
+	
+.ProductsandservicesMen {
+	
+    background-color: Black;
+    border: none;
+    color: white;
+    text-align: centre;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+	margin: 4px 2px;
+   	width: 17em;
+	line-height: 4em;
+	
+	}
+	
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+
+  
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	 position: absolute;
+}
+
