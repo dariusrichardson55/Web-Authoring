@@ -1,56 +1,79 @@
+
 function myFunction() {
-    document.getElementById("Shirt"). src = "Shirt(Blue).png";
+    document.getElementById("Shirt"). src = "Images/Products/Shirt(Blue).png";
 	}
 	function myFunction2() {
-    document.getElementById("Shirt"). src = "Shirt(Green).png";
+    document.getElementById("Shirt"). src = "Images/Products/Shirt(Green).png";
 	}
 	function myFunction3() {
-    document.getElementById("Shirt"). src = "Shirt(Purple).png";
+    document.getElementById("Shirt"). src = "Images/Products/Shirt(Purple).png";
 	
 
 }
 
-
-var c = document.getElementById("Canvasforshirt");
-var ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.moveTo(0, 200);
-ctx.lineTo(310, 199);
-ctx.stroke();
 
 
 function myFunction4() {
-    document.getElementById("Trouser"). src = "Trouser(Blue).png";
+    document.getElementById("Trouser"). src = "Images/Products/Trouser(Blue).png";
 	}
 	function myFunction5() {
-    document.getElementById("Trouser"). src = "Trouser(Green).png";
+    document.getElementById("Trouser"). src = "Images/Products/Trouser(Green).png";
 	}
 	function myFunction6() {
-    document.getElementById("Trouser"). src = "Trouser(Brown).png";
+    document.getElementById("Trouser"). src = "Images/Products/Trouser(Brown).png";
 
 }
 
 
-var c = document.getElementById("Canvasfortrousers");
-var ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.moveTo(0, 200);
-ctx.lineTo(310, 199);
-ctx.stroke();
+function myFunction7() {
+    document.getElementById("Hat"). src = "Images/Products/Hat(Blue).png";
+	}
+	function myFunction8() {
+    document.getElementById("Hat"). src = "Images/Products/Hat(Green).png";
+	}
+	function myFunction9() {
+    document.getElementById("Hat"). src = "Images/Products/Hat(Brown).png";
 
-{
+}
 
-// Check browser support
-if (typeof(Storage) !== "undefined") {
-    // Store
-	localStorage.setItem("firstname", " Created by Darius");
-    localStorage.setItem("lastname", "Richardson");
-    // Retrieve
-    document.getElementById("resultfirstname").innerHTML = localStorage.getItem("firstname");
-	 document.getElementById("resultsecondname").innerHTML = localStorage.getItem("lastname");
+
+	function myFunction10() {
+    document.getElementById("WomenShirt"). src = "Images/Products/WomenShirt(Blue).png";
+	}
+	function myFunction11() {
+    document.getElementById("WomenShirt"). src = "Images/Products/WomenShirt(Orange).png";
+	}
+	function myFunction12() {
+    document.getElementById("WomenShirt"). src = "Images/Products/WomenShirt(Black).png";
+
+}
+
+	function myFunction13() {
+    document.getElementById("WomenTrousers"). src = "Images/Products/WomenTrousers(Blue).png";
+	}
+	function myFunction14() {
+    document.getElementById("WomenTrousers"). src = "Images/Products/WomenTrousers(Green).png";
+	}
+	function myFunction15() {
+    document.getElementById("WomenTrousers"). src = "Images/Products/WomenTrousers(Brown).png";
+
+}
+
+function myFunction16() {
+    document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Blue).png";
+	}
+	function myFunction17() {
+    document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Green).png";
+	}
+	function myFunction18() {
+    document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Blue).png";
+
+}
+
+
+
 	
-} else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
+	
+	
+	
 
-}

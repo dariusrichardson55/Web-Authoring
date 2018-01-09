@@ -1,24 +1,18 @@
 
-#mapPlaceholder {
-    
-	height: 200px;
-	padding: 10px;
-    margin: 5px;
-	float: right;
-	margin: 30px 30px;
-	min-width: 260px;
-  	max-width: 230px;		
-    left: 27%;
-    top: 35%;
-	
-	} 
-   
-
 a:hover {
 	
 	background-color:black;
 	   	width: 17em;
 	
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
 }
 
 
@@ -41,7 +35,7 @@ a:hover {
 	
 	
 	.button:active {
-  background-color: #3e8e41;
+  background-color: Black;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
@@ -82,36 +76,7 @@ background-color: Black
 
 
 }	
-	
 
-
-	
-
-#openinghoursbox {
-    background-color: lightgrey;
-    width: 200px;
-	padding: 17px;
-    margin: 5px;
-	float: left;
-	margin: 10px 10px;
-	min-width: 110px;
-  	max-width: 528px;	
-    font-family: Arial;
-}
-
-
-
-#contactdetailsbox {
-    background-color: lightgrey;
-    width: 260px;
-	padding: 10px;
-    margin: 5px;
-	float: right;
-	margin: 30px 30px;
-	min-width: 230px;
-  	max-width: 290px;	
-    font-family: Arial;	
-}
 
 
 .dropdown {

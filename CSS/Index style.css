@@ -14,31 +14,27 @@
 	}
 	
   
+ @media (max-width:480px){ 
+#mapPlaceholder {
+    
+	height: 200px;
+	padding: 10px;
+    margin: 5px;
+	float: none;
+	margin: 30px 30px;
+	min-width: 110px;
+  	max-width: 528px;		
+    left: 0%;
+  
+	
+	}
+}
 
 a:hover {
 	
 	background-color:black;
 	   	width: 17em;
 	
-}
-
-
-
-#resultfirstname
-{
-	position: fixed;
-	left: 80.8%;
-	top: 5%
-
-}
-
-
-#resultsecondname
-{
-	position: fixed;
-    left: 90%;
-    top: 5%
-    
 }
 
 
@@ -60,7 +56,24 @@ a:hover {
 	
 }
 
+.Video
+{
+position:absolute;
+bottom: 65%;
+left: 42%;
+}
 
+ @media (max-width:500px){
+.Video
+{
+position:absolute;
+top: 110%;
+left: 30%;
+}
+
+
+
+}
 	
 	.button:active {
   background-color: Black;
@@ -85,7 +98,6 @@ text-align: right;
 }
 
 
-
 .button {
 background-color: Grey;
 border: none;
@@ -101,12 +113,14 @@ line-height: 4em;
 }
 
 
+
 .button:hover 
 { 
 background-color: Black
 
 
 }	
+
 
 #FacebookLogo
 {
@@ -115,13 +129,32 @@ background-color: Black
 	
 }
 
-#Twitterlogo
+ @media (max-width:950px){ 
+#FacebookLogo
 {
 	position:Absolute;
-	right: 93%
+    top: 1px;
+    left: 2%;
+	
+}
+}
+#Twitterlogo
+{
+position:Absolute;
+left: 3%;
     
 }
-	
+
+  
+ @media (max-width:950px){ 
+	#Twitterlogo
+{
+	position:Absolute;
+    top: 1px;
+    left: 10%;
+    
+}
+}
 
 li a:hover:not(.active) {
     background-color: #111;
@@ -136,7 +169,7 @@ li a:hover:not(.active) {
 .Socialmediatext
 {
 	position:Absolute;
-	top: 1%
+	top: 5%
 }
 
 
@@ -161,8 +194,8 @@ li a:hover:not(.active) {
     margin: 5px;
 	float: right;
 	margin: 30px 30px;
-	min-width: 230px;
-  	max-width: 290px;	
+	min-width: 110px;
+  	max-width: 528px;		
     font-family: Arial;	
 }
 
@@ -193,216 +226,45 @@ li a:hover:not(.active) {
 }
 
 
-
-
-/* @media (max-width:1200px){	 */
-/* #mapPlaceholder { */
-    
-	/* height: 200px; */
-	/* padding: 10px; */
-    /* margin: 5px; */
-	/* float: right; */
-	/* margin: 30px 30px; */
-	/* min-width: 260px; */
-  	/* max-width: 230px;		 */
-    /* left: 27%; */
-    /* top: 35%; */
-	
-	/* } */
-	
-  
-/* @media (max-width:600px){ */
-/* a:hover { */
-	
-	/* background-color:black; */
-	   	/* width: 17em; */
-	
-/* } */
-
-
-/* @media (max-width:600px){ */
-/* #resultfirstname { */
-	/* position: fixed; */
-	/* left: 80.8%; */
-	/* top: 5% */
-
-/* } */
-
-
-	
-	
-/* } */
-/* @media (max-width:600px){ */
-/* #resultsecondname { */
-	/* position: fixed; */
-    /* left: 90%; */
-    /* top: 5% */
-    
-/* } */
-
-
-
-/* @media (max-width:600px){ */
-/* .home { */
 	
 
-    /* background-color: Black; */
-    /* border: none; */
-    /* color: white; */
-    /* text-align: center; */
-    /* text-decoration: none; */
-    /* display: inline-block; */
-    /* font-size: 10px; */
-	/* margin: 4px 2px; */
-   	/* width: 17em; */
-	/* line-height: 4em; */
-	
-/* } */
+ @media (max-width:480px){ 
+
+ #openinghoursbox {
+	float:none;
+	display:block;
+	width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+ }
 
 
-	
-/* @media (max-width:600px){ */
-/* .home {	 */
-/* background-color: Black; */
-/* border: none; */
-/* color: white; */
-/* text-align: center; */
-/* text-decoration: none; */
-/* display: inline-block; */
-/* font-size: 10px; */
-/* margin: 4px 2px; */
-/* width: 17em; */
-/* line-height: 4em;	 */
-/* } */
-	
-/* @media (max-width:600px){	 */
-	/* .button:active { */
-  /* background-color: #3e8e41; */
-  /* box-shadow: 0 5px #666; */
-  /* transform: translateY(4px); */
-/* } */
-	
-/* @media (max-width:600px){ */
-/* .header { */
-/* text-align: right; */
-/* font-family: Helvetica; */
-	
-/* } */
-/* @media (max-width:600px){ */
-/* .title { */
+@media (max-width:480px){ 
 
-/* font-size: 30px; */
-/* text-align: right;  */
+ #openinghoursbox {
+	float:none;
+	display:block;
+	width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
-/* } */
+ }
 
-	
-/* @media (max-width:600px){ */
-/* .button { */
-/* background-color: Grey; */
-/* border: none; */
-/* color: white; */
-/* text-align: center; */
-/* text-decoration: none; */
-/* display: inline-block; */
-/* font-size: 10px; */
-/* margin: 4px 2px; */
-/* width: 17em; */
-/* line-height: 4em;	 */
-		
-/* } */
-/* @media screen and (max-width:600px){ */
-/* .button:hover  */
-/* {  */
-/* background-color: Black */
+ @media (max-width:480px){ 
 
+ #contactdetailsbox {
+float:none;
+	display:block;
+	width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
 
-/* }	 */
-
-/* @media (max-width:600px){ */
-/* #FacebookLogo */
-/* { */
-	/* position:Absolute; */
-
-	
-/* } */
-
-/* @media (max-width:600px){ */
-/* #Twitterlogo */
-/* { */
-	/* position:Absolute; */
-	/* right: 93% */
-    
-/* } */
-	
-/* @media (max-width:600px){ */
-/* li a:hover:not(.active) { */
-    /* background-color: #111; */
-/* } */
-
-/* @media (max-width:600px){ */
-/* .active { */
-    /* background-color: Black; */
-/* } */
-
-	
-/* @media (max-width:600px){	 */
-/* .Socialmediatext */
-/* { */
-	/* position:Absolute; */
-	/* top: 1% */
-/* } */
-/* @media screen and (max-width:600px){ */
-/* #openinghoursbox { */
-    /* background-color: lightgrey; */
-    /* width: 200px; */
-	/* padding: 17px; */
-    /* margin: 5px; */
-	/* float: left; */
-	/* margin: 10px 10px; */
-	/* min-width: 110px; */
-  	/* max-width: 528px;	 */
-    /* font-family: Arial; */
-/* } */
-
-
-/* @media (max-width:600px){ */
-/* #contactdetailsbox { */
-    /* background-color: lightgrey; */
-    /* width: 260px; */
-	/* padding: 10px; */
-    /* margin: 5px; */
-	/* float: right; */
-	/* margin: 30px 30px; */
-	/* min-width: 230px; */
-  	/* max-width: 290px;	 */
-    /* font-family: Arial;	 */
-/* } */
-
-
-/* @media (max-width:600px){ */
-/* .dropdown { */
-    /* position: relative; */
-    /* display: inline-block; */
-
-/* } */
-
-
-/* @media (max-width:600px){ */
-/* .dropdown-content { */
-    /* display: none; */
-    /* position: absolute; */
-    /* background-color: grey; */
-    /* color: white; */
-    /* font-size: 10px; */
-    /* cursor: pointer; */
-
-  
-/* } */
-
-/* @media (max-width:600px){ */
-/* .dropdown:hover .dropdown-content { */
-    /* display: block; */
-	 /* position: absolute; */
-/* } */
-
+ }
+ 
+}

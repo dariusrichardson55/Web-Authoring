@@ -16,7 +16,7 @@ a:hover {
   transform: translateY(4px);
 }
 
-.Deliveryterritory {
+#Deliveryterritory {
  border-radius: 4px;
   background-color: Grey;
   border: none;
@@ -28,12 +28,12 @@ a:hover {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  position:fixed;
+  position:absolute;
   left: 4.5%;
   top:  90%
 }
 
-.Deliveryterritory2 {
+#Deliveryterritory2 {
   border-radius: 4px;
   background-color: Grey;
   border: none;
@@ -45,13 +45,12 @@ a:hover {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  position:fixed;
+  position:absolute;
   left: 27.5%;
   top:  90%
 }
 
-
-.Deliveryterritory3 {
+#Deliveryterritory3 {
   border-radius: 4px;
   background-color: Grey;
   border: none;
@@ -63,10 +62,11 @@ a:hover {
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  position:fixed;
+  position:absolute;
   left: 27.5%;
-  top:  70%
+  top:  90%
 }
+
 
 
 
@@ -123,67 +123,36 @@ a:hover {
 }
 
 
-	
-#Shirt 
+#Kidsshirt 
 {
 	position: absolute;
-    left: 95px;
-    top: 360px;
-	
-}
-
-#Trouser 
-{
-	position: absolute;
-    left: 394px;
+    left: 100px;
     top: 360px;
 	
 }
 
 
-
-#Canvasforshirt
-{
-	position: absolute;
-	left: 50px;
-	top: 290px;
-	Min-width: 320px 
-    Min-width: 480px 
-    Min-width: 768px 
-    Min-width: 992px 
-    Min-width: 1200px
-
-}
-
-#Canvasfortrousers
-{
-	position: absolute;
-	left: 350px;
-	top: 290px;
-	
-}
-
-.brownsquare
+.Darkgreensquare
 {
 	
     position: absolute;
-	left: 400px;
+	left: 100px;
     top: 520px;
 	
 }
 
-.GreenButton2
+.Darkblue
 {
 	position: absolute;
-	left: 440px;
+	left: 140px;
 	top: 520px;
 	
 }
 
-.BlueButton2
+.Redsquare
 {
 	position: absolute;
-	left: 480px;
+	left: 180px;
     top: 520px;
 	
 }
@@ -238,11 +207,9 @@ a:hover {
 .shirttext
 {
     position: absolute;
-	left: 143px;
+	left: 149px;
     top: 290px;
 }
-
-
 
 
 .shirtcolourtext
@@ -271,8 +238,8 @@ text-align: right;
 .shirtpricetext
 {
 position: absolute;
-left: 148px;
-bottom: 250px;
+left: 153px;
+bottom: 249px;
 
 }
 
@@ -281,7 +248,7 @@ bottom: 250px;
 {
 position: absolute;
 left:   448px;
-bottom: 250px;
+bottom: 249px;
 
 }
 
@@ -300,7 +267,7 @@ bottom: 250px;
 	}
 
 	
-.ProductsandservicesMen {
+.ProductsandservicesKids {
 	
     background-color: Black;
     border: none;
