@@ -5,7 +5,7 @@ a:hover {
 	   	width: 17em;
 	
 }
-Home_address
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -40,7 +40,7 @@ input[type=submit]:hover {
     background-color: Grey;
 }
 
-.container {
+#LocalStorage {
     border-radius: 5px;
     background-color: Black;
     padding: 20px;
@@ -115,7 +115,12 @@ background-color: Black
 
 }	
 
-
+.Sendtext {
+	
+	color:White;
+	
+	
+}
 
 .dropdown {
     position: relative;

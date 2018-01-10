@@ -2,13 +2,13 @@ window.onload=function() {
 
 ///  Session storage for womens clothes
 
-if (sessionStorage.getItem("sessionStorage") != "Yes") {
+if (sessionStorage.getItem("sessionStorage") != "On") {
 
 	 sessionStorage.setItem("Womenshirts","0");
 	 sessionStorage.setItem("Womentrousers","0");
 }
 
-sessionStorage.setItem("sessionStorage","Yes");
+sessionStorage.setItem("sessionStorage","On");
 
 function basketUpdate(){
 	

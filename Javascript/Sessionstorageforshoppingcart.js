@@ -1,5 +1,5 @@
 window.onload=function() {
-if (sessionStorage.getItem("sessionStorage") != "Yes") {
+if (sessionStorage.getItem("sessionStorage") != "On") {
 
 	sessionStorage.setItem("Shirt","0");
 	sessionStorage.setItem("Trousers","0");
@@ -7,7 +7,7 @@ if (sessionStorage.getItem("sessionStorage") != "Yes") {
     
 }
 
-sessionStorage.setItem("sessionStorage","Yes");
+sessionStorage.setItem("sessionStorage","On");
 
 function basketUpdate(){
 	var BasketCount = parseInt(sessionStorage.getItem("Shirt")) +

@@ -59,16 +59,17 @@ function myFunction7() {
 
 }
 
-function myFunction16() {
+    function myFunction16() {
     document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Blue).png";
 	}
 	function myFunction17() {
     document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Green).png";
 	}
 	function myFunction18() {
-    document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Blue)png";
+    document.getElementById("Kidsshirt"). src = "Images/Products/Kidshirt(Red).png";
 
 }
+
 
 
 
