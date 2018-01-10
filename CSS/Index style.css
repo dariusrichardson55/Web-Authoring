@@ -8,8 +8,8 @@
 	margin: 30px 30px;
 	min-width: 260px;
   	max-width: 230px;		
-    left: 27%;
-    top: 35%;
+    left: 14%;
+    top: 20%;
 	
 	}
 	
@@ -17,17 +17,24 @@
  @media (max-width:480px){ 
 #mapPlaceholder {
     
-	height: 200px;
+	height: 210px;
 	padding: 10px;
     margin: 5px;
 	float: none;
 	margin: 30px 30px;
-	min-width: 110px;
+	min-width: 210px;
   	max-width: 528px;		
     left: 0%;
   
 	
 	}
+}
+
+body 
+{
+	background-color: #ada397;
+	
+	
 }
 
 a:hover {
@@ -85,17 +92,10 @@ left: 30%;
 .header {
 
 
-text-align: right;
 font-family: Helvetica;
-	
-}
-
-.title {
-
-font-size: 30px;
-text-align: right; 
 
 }
+
 
 
 .button {
@@ -125,7 +125,8 @@ background-color: Black
 #FacebookLogo
 {
 	position:Absolute;
-
+	left: 90%;
+    top:  5%;
 	
 }
 
@@ -133,16 +134,16 @@ background-color: Black
 #FacebookLogo
 {
 	position:Absolute;
-    top: 1px;
-    left: 2%;
+    top: 90px;
+    left: 84%;
 	
 }
 }
 #Twitterlogo
 {
 position:Absolute;
-left: 3%;
-    
+left: 93%;
+top:  4%;
 }
 
   
@@ -150,8 +151,8 @@ left: 3%;
 	#Twitterlogo
 {
 	position:Absolute;
-    top: 1px;
-    left: 10%;
+    top: 130px;
+    left: 81%;
     
 }
 }
@@ -169,7 +170,18 @@ li a:hover:not(.active) {
 .Socialmediatext
 {
 	position:Absolute;
-	top: 5%
+	top: 5%;
+	left: 90%;
+}
+
+
+ @media (max-width:950px){ 
+.Socialmediatext
+{
+	position:Absolute;
+	top: 5%;
+	left: 20%;
+} 
 }
 
 
@@ -190,13 +202,17 @@ li a:hover:not(.active) {
 #contactdetailsbox {
     background-color: lightgrey;
     width: 260px;
-	padding: 10px;
+	height: 200px;
+	padding: 17px;
     margin: 5px;
-	float: right;
-	margin: 30px 30px;
+	float: left;
+	margin: 10px 10px;
 	min-width: 110px;
   	max-width: 528px;		
     font-family: Arial;	
+	position:absolute;
+	left: 70%;
+	top:  30%;
 }
 
 
@@ -242,28 +258,19 @@ li a:hover:not(.active) {
  }
 
 
-@media (max-width:480px){ 
-
- #openinghoursbox {
-	float:none;
-	display:block;
-	width: 100%;
-    margin: 0;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
- }
 
  @media (max-width:480px){ 
 
- #contactdetailsbox {
-float:none;
+#contactdetailsbox {
+    float:none;
 	display:block;
-	width: 100%;
+	width: 95%;
     margin: 0;
     padding: 10px;
     box-sizing: border-box;
+	position: absolute;
+	left: 9px;
+	top: 630px;
 
  }
  

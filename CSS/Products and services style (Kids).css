@@ -16,6 +16,15 @@ a:hover {
   transform: translateY(4px);
 }
 
+body 
+{
+	background-color: Lightblue;
+	
+	
+}
+
+
+
 #Deliveryterritory {
  border-radius: 4px;
   background-color: Grey;

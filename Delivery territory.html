@@ -6,7 +6,6 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="Javascript/Deliveryterritory.js"></script>
 
-
 <link rel="stylesheet" href="CSS/Delivery territory style.css">
 
 </head>
@@ -74,14 +73,27 @@
 
 
 
-
 </table>
 
 
 <br><br><br>
 <h2 id="TotalCost" ></h2> 
 
+   <label for="Name" id="text">First Name</label>
+    <input type="text" id="Name" name="First_name" placeholder="Your first name..">
 
+    <label for="lname"id="text">Last Name</label>
+    <input type="text" id="lname" name="Last_name" placeholder="Your last name..">
+    
+    <label for="phone" id="text">Phone</label>
+    <input type="text" id="phone" name="Phone" placeholder="Your Phone number..">
+
+	 <label for="subject" id="text">Home address</label>
+    <textarea id="subject" name="Comments" placeholder="" style="height:200px"></textarea>
+
+    <input type="submit" value="Send" onclick="myFunction()">
+	
+	
 
 </center>
 </section>

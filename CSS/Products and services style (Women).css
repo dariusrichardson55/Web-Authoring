@@ -16,6 +16,13 @@ a:hover {
   transform: translateY(4px);
 }
 
+body 
+{
+	background-color: Lightblue;
+	
+	
+}
+
 #Deliveryterritory4 {
  border-radius: 4px;
   background-color: Grey;
@@ -102,7 +109,7 @@ a:hover {
 	
 }
 
-.trousertext
+.Trousertext
 {
     position: absolute;
 	left: 435px;

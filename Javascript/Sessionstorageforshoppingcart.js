@@ -48,10 +48,6 @@ document.getElementById("Deliveryterritory3").addEventListener("click", function
     console.log("Hat added to basket");
 });
 
-
-basketUpdate();
-
-
 }
 	
 
