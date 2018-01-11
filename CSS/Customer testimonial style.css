@@ -1,11 +1,9 @@
   
 /* Style and position for the Customer testimonial button */
-.Customertestimonial {
-	
+.Customertestimonial {	
     background-color: Black;
     border: none;
     color: white;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
@@ -60,7 +58,6 @@ text-align: right;
 background-color: Grey;
 border: none;
 color: white;
-text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 10px;
