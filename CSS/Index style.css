@@ -30,6 +30,24 @@
 	}
 }
 
+#video {
+	position:absolute;
+	top: 20%;
+	left: 32%;
+
+	
+}
+
+ @media (max-width:480px){ 
+#video {
+	position:absolute;
+	top: 80%;
+	left: 12%;
+	width: 70%;
+
+	
+}
+ }
 body 
 {
 	background-color: #ada397;
@@ -63,12 +81,7 @@ a:hover {
 	
 }
 
-.Video
-{
-position:absolute;
-bottom: 65%;
-left: 42%;
-}
+
 
  @media (max-width:500px){
 .Video
