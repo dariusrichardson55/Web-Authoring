@@ -24,7 +24,7 @@ document.getElementById("Deliveryterritory4").addEventListener("click", function
 	sessionStorage.setItem("Womenshirts",CurrentCount.toString());
 	basketUpdate();
 	alert("Product is added to your basket");
-    console.log("Women's shirt added to basket");
+    console.log("Women's shirt added to Delivery territory");
 });
 
 document.getElementById("Deliveryterritory5").addEventListener("click", function(){
@@ -33,7 +33,7 @@ document.getElementById("Deliveryterritory5").addEventListener("click", function
 	sessionStorage.setItem("Womentrousers",CurrentCount.toString());
 	basketUpdate();
 	alert("Product is added to your basket");
-    console.log("Women's trousers added to basket");
+    console.log("Women's trousers added to Delivery territory");
 });
 
 }

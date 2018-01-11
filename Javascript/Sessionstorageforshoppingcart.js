@@ -24,7 +24,7 @@ document.getElementById("Deliveryterritory").addEventListener("click", function(
 	var CurrentCount = parseInt(sessionStorage.getItem("Shirt")) + 1;
 	sessionStorage.setItem("Shirt",CurrentCount.toString());
 	basketUpdate();
-	alert("Product is added to your basket");
+	alert("Product is added to Delivery territory");
 	console.log("Shirt added to basket");
 });
 
@@ -34,7 +34,7 @@ document.getElementById("Deliveryterritory2").addEventListener("click", function
 	var CurrentCount = parseInt(sessionStorage.getItem("Trousers")) + 1;
 	sessionStorage.setItem("Trousers",CurrentCount.toString());
 	basketUpdate();
-	alert("Product is added to your basket");
+	alert("Product is added to Delivery territory");
     console.log("trousers added to basket");
   
 });
@@ -44,7 +44,7 @@ document.getElementById("Deliveryterritory3").addEventListener("click", function
 	var CurrentCount = parseInt(sessionStorage.getItem("Hat")) + 1;
 	sessionStorage.setItem("Hat",CurrentCount.toString());
 	basketUpdate();
-	alert("Product is added to your basket");
+	alert("Product is added to Delivery territory");
     console.log("Hat added to basket");
 });
 
